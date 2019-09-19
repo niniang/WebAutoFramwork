@@ -18,4 +18,4 @@ test.send_keys('test')
 #test.click()
 
 time.sleep(3)
-#dr.close()
+dr.close()
