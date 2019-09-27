@@ -27,5 +27,8 @@ ww = dr.find_element_by_id('ww')
 ww.send_keys('test')
 time.sleep(5)
 
+dr.switch_to.window(handles[0])
+time.sleep(5)
+
 
 dr.quit()

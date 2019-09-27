@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8777874-87f0-4172-bdcc-d54626dc8e4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/IframeTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/TabChangeTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/AlertTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/FileNameTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/FileNameTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/TabChangeTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/TabChangeTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../12306" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +59,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TabChangeTest">
+  <component name="RunManager" selected="Python.AlertTest">
+    <configuration name="AlertTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebAutoFramwork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/AlertTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="FileNameTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WebAutoFramwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,28 +148,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TensorflowTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="WebAutoFramwork" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/TensorflowTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="WebDriverTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WebAutoFramwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AlertTest" />
         <item itemvalue="Python.TabChangeTest" />
         <item itemvalue="Python.IframeTest" />
         <item itemvalue="Python.FileNameTest" />
         <item itemvalue="Python.WebDriverTest" />
-        <item itemvalue="Python.TensorflowTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +199,7 @@
       <workItem from="1568163335701" duration="741000" />
       <workItem from="1568170855934" duration="3067000" />
       <workItem from="1568785061208" duration="23420000" />
-      <workItem from="1569479235655" duration="4577000" />
+      <workItem from="1569479235655" duration="12431000" />
     </task>
     <servers />
   </component>
@@ -211,7 +224,8 @@
     <SUITE FILE_PATH="coverage/WebAutoFramwork$KeysTest.coverage" NAME="KeysTest Coverage Results" MODIFIED="1568101574511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$IframeTest.coverage" NAME="IframeTest Coverage Results" MODIFIED="1569479791058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$ImplicitlyWait.coverage" NAME="ImplicitlyWait Coverage Results" MODIFIED="1568097218258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
-    <SUITE FILE_PATH="coverage/WebAutoFramwork$TabChangeTest.coverage" NAME="TabChangeTest Coverage Results" MODIFIED="1569482176077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/WebAutoFramwork$TabChangeTest.coverage" NAME="TabChangeTest Coverage Results" MODIFIED="1569484559309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/WebAutoFramwork$AlertTest.coverage" NAME="AlertTest Coverage Results" MODIFIED="1569551022858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$WebDriverTest.coverage" NAME="WebDriverTest Coverage Results" MODIFIED="1568171498173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$TensorflowTest.coverage" NAME="TensorflowTest Coverage Results" MODIFIED="1568171193136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$FileNameTest.coverage" NAME="FileNameTest Coverage Results" MODIFIED="1568958652399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
