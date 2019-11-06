@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8777874-87f0-4172-bdcc-d54626dc8e4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/CookieTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/DownloadTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/JSTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/UploadTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework/Base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/BaiduPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/ScreenshotTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestSuites/BaiduPageTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestSuites/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../12306" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python3-Selenium" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -62,51 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.JSTest">
-    <configuration name="CookieTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="WebAutoFramwork" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/CookieTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DownloadTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="WebAutoFramwork" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/DownloadTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Practice">
     <configuration name="JSTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WebAutoFramwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="UploadDownloadTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WebAutoFramwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,7 +101,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\PycharmProjects\WebAutoFramwork\Test\UploadTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="UploadTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ScreenshotTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WebAutoFramwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,22 +123,52 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/UploadTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/ScreenshotTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for BaiduPageTest.BaiduSearch" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="WebAutoFramwork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestSuites" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;BaiduPageTest.BaiduSearch&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in BaiduPageTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="WebAutoFramwork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestSuites" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestSuites/BaiduPageTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Practice" />
+        <item itemvalue="Python tests.Unittests for BaiduPageTest.BaiduSearch" />
+        <item itemvalue="Python tests.Unittests in BaiduPageTest.py" />
+        <item itemvalue="Python.ScreenshotTest" />
         <item itemvalue="Python.JSTest" />
-        <item itemvalue="Python.UploadTest" />
-        <item itemvalue="Python.DownloadTest" />
-        <item itemvalue="Python.UploadDownloadTest" />
-        <item itemvalue="Python.CookieTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +194,10 @@
       <workItem from="1569479235655" duration="27413000" />
       <workItem from="1571793682966" duration="636000" />
       <workItem from="1571799170614" duration="2327000" />
-      <workItem from="1571968655739" duration="612000" />
+      <workItem from="1571968655739" duration="8257000" />
+      <workItem from="1572231267826" duration="7971000" />
+      <workItem from="1572935016358" duration="3092000" />
+      <workItem from="1573005778790" duration="4462000" />
     </task>
     <servers />
   </component>
@@ -230,16 +222,20 @@
     <SUITE FILE_PATH="coverage/WebAutoFramwork$UploadDownloadTest.coverage" NAME="UploadDownloadTest Coverage Results" MODIFIED="1569555501984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$CookieTest.coverage" NAME="CookieTest Coverage Results" MODIFIED="1569553543734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$ImplicitlyWait.coverage" NAME="ImplicitlyWait Coverage Results" MODIFIED="1568097218258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/WebAutoFramwork$ScreenshotTest.coverage" NAME="ScreenshotTest Coverage Results" MODIFIED="1571971605461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$AlertTest.coverage" NAME="AlertTest Coverage Results" MODIFIED="1569551022858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$TensorflowTest.coverage" NAME="TensorflowTest Coverage Results" MODIFIED="1568171193136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$Demo01.coverage" NAME="Demo01 Coverage Results" MODIFIED="1568086206484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$DownloadTest.coverage" NAME="DownloadTest Coverage Results" MODIFIED="1569566331630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$IframeTest.coverage" NAME="IframeTest Coverage Results" MODIFIED="1569479791058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$UploadTest.coverage" NAME="UploadTest Coverage Results" MODIFIED="1569567435830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/WebAutoFramwork$Unittests_in_BaiduPageTest_py.coverage" NAME="Unittests in BaiduPageTest.py Coverage Results" MODIFIED="1572250265082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestSuites" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$TabChangeTest.coverage" NAME="TabChangeTest Coverage Results" MODIFIED="1569484559309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$JSTest.coverage" NAME="JSTest Coverage Results" MODIFIED="1571970994891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$WebDriverTest.coverage" NAME="WebDriverTest Coverage Results" MODIFIED="1568171498173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$FileNameTest.coverage" NAME="FileNameTest Coverage Results" MODIFIED="1568958652399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/WebAutoFramwork$ActionChainsTest.coverage" NAME="ActionChainsTest Coverage Results" MODIFIED="1568100007430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/WebAutoFramwork$Unittests_for_BaiduPageTest_BaiduSearch.coverage" NAME="Unittests for BaiduPageTest.BaiduSearch Coverage Results" MODIFIED="1572250270538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestSuites" />
+    <SUITE FILE_PATH="coverage/WebAutoFramwork$Practice.coverage" NAME="Practice Coverage Results" MODIFIED="1573025421332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
   </component>
 </project>
